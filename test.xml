@@ -1,7 +1,7 @@
 <krpano version="1.19-pr8" clientversion="1" showerrors="false">
-<include url=" https://wxc447.github.io/pic/config_export.xml"/>
-<include url="https://wxc447.github.io/pic//lensflare.xml"/>
-<include url="/member/tour/apixml/pano_id/1617"/>
+<include url="https://wxc447.github.io/pic/config_export.xml"/>
+<include url="https://wxc447.github.io/pic/lensflare.xml"/>
+<include url="https://wxc447.github.io/pic/paio.xml"/>
 <scene pano_id="1590459908140jkz" name="scene_1590459908140jkz" fenzuid="1719" thumburl="%FIRSTXML%/panorama/1590459908140jkz/pano.tiles/thumb.jpg?imageView2/1/w/120/h/120 " logo="">
 <preview url="http://cdn.360vryun.com/uploads/6233/panorama/1590459908140jkz/scene/preview.jpg"/>
 <!-- 2020/03/26修改全景图加载开屏黑块问题 -->
