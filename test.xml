@@ -1,0 +1,74 @@
+<krpano version="1.19-pr8" clientversion="1" showerrors="false">
+<include url="/krp/config_export.xml?1590635775"/>
+<include url="/krp/lensflare/lensflare.xml"/>
+<include url="/member/tour/apixml/pano_id/1617"/>
+<scene pano_id="1590459908140jkz" name="scene_1590459908140jkz" fenzuid="1719" thumburl="%FIRSTXML%/panorama/1590459908140jkz/pano.tiles/thumb.jpg?imageView2/1/w/120/h/120 " logo="">
+<preview url="http://cdn.360vryun.com/uploads/6233/panorama/1590459908140jkz/scene/preview.jpg"/>
+<!-- 2020/03/26修改全景图加载开屏黑块问题 -->
+<image type="CUBE" multires="true" tilesize="256" if="!webvr.isenabled AND device.desktop">
+<level tiledimagewidth="1920" tiledimageheight="1920">
+<cube url="http://cdn.360vryun.com/uploads/6233/panorama/1590459908140jkz/scene/pian_%s/l2/%v/l2_%s_%v_%h.jpg"/>
+<!-- mres_u/     l1/    2/  l1_u_2_2.jpg -->
+<!-- mres_b/     l1/    03/ l1_b_03_02.jpg -->
+</level>
+<level tiledimagewidth="896" tiledimageheight="896">
+<cube url="http://cdn.360vryun.com/uploads/6233/panorama/1590459908140jkz/scene/pian_%s/l1/%v/l1_%s_%v_%h.jpg"/>
+<!-- mres_u/     l1/    2/  l1_u_2_2.jpg -->
+<!-- mres_b/     l1/    03/ l1_b_03_02.jpg -->
+</level>
+</image>
+<image if="webvr.isenabled OR !device.desktop">
+<cube url="http://cdn.360vryun.com/uploads/6233/panorama/1590459908140jkz/scene/pano_%s.jpg"/>
+</image>
+</scene>
+<events onnewscene="js(newScene());"/>
+<config is_show_pano_marquee="0" common_padding_top="0" enable_pano_guide="0" is_enable_into="0">
+<info title="ECS-700机柜" desc="浙江中控技术股份有限公司成立于1999年，公司是高新技术企业和国家技术创新示范企业。公司始终秉承“让工作与生活更轻松”的使命，致力于面向流程工业为主的工业企业提供以自动化控制系统为核心，涵盖工业软件、自动化仪表及运维服务的智能制造产品及解决方案，赋能用户提升自动化、数字化、智能化水平，实现工业生产自动化控制和智能化管理。全球员工人数超过三千人，公司拥有较为完善的营销网络和服务体系，现已在国内30个省（自治区、直辖市）及南亚、东南亚、中东等海外地区设有区域事业部、分公司、办事处等机构，核心产品已应用至30多个国家。" id="926911dfc0d298e0" pid="1617" firstpanoid="1590459908140jkz"/>
+<auth link="http://360vryun.com/index.php?s=/author/pannolist/id/6233" status="1" uid="77de535eeea" auth_name="乐天"/>
+<feature enable_autorotate="0" enable_littleplanet="1" enable_gyro="0" show_auth="1" enable_selected="2" enable_location="0" enable_mapdaohang="0" enable_password="" enable_needpay="" enable_intro="1" enable_vr="1" show_pv="1" enable_like="1" show_comment="1" enable_comment="0"/>
+<start_image enabled="1"/>
+<qr enabled="1"/>
+<logo enabled="1" align="1" is_720="0" url="http://cdn.360vryun.com/uploads/6233/spot/5ecc83c3aa4db.png" link="http://360vryun.com/index.php?s=/author/pannolist/id/6233"/>
+<thumbs title="场景选择" show_thumb="1">
+<category title="场景选择" name="category1719" thumb="" fenzuid="1719">
+<pano title="dasdsa.jpg" pano_id="1590459908140jkz" fenzuid="1719" name="pano_1590459908140jkz" thumb="http://cdn.360vryun.com/uploads/6233/panorama/1590459908140jkz/scene/pano_f.jpg"/>
+</category>
+</thumbs>
+<links> </links>
+<panos>
+<pano name="scene_1590459908140jkz">
+<info title="dasdsa.jpg" pano_id="1590459908140jkz"/>
+<view hlookat="0" vlookat="0" fovtype="MFOV" fov="95" maxpixelzoom="2" fovmin="70" fovmax="120" loadscenekeepview="0" autorotatekeepview="0" vlookatmax="20" vlookatmin="-10"/>
+<hotspots>
+<hotspot name="hotspot_photo_479" url="" type="2" target="特性" linkedscene="特性" keep_view="0" show_txt="1" atv="-32.157082937661" ath="-0.6658614588498" image_type="1" style_id="new_spotd_bs143" is_blank="1">
+<image url="http://cdn.360vryun.com/uploads/6233/spot/5ecde83c91410.jpg" name="image_0" title="" thumb_url="http://cdn.360vryun.com/uploads/6233/spot/5ecde83c91410.jpg"/>
+<image url="http://cdn.360vryun.com/uploads/6233/spot/5ecde83cb7638.jpg" name="image_1" title="" thumb_url="http://cdn.360vryun.com/uploads/6233/spot/5ecde83cb7638.jpg"/>
+</hotspot>
+<hotspot name="hotspot_photo_480" url="" type="2" target="控制器" linkedscene="控制器" keep_view="0" show_txt="1" atv="-31.876577353657" ath="-5.7070418605772" image_type="1" style_id="new_spotd_bs143" is_blank="1">
+<image url="http://cdn.360vryun.com/uploads/6233/spot/5ecde862009c1.jpg" name="image_0" title="" thumb_url="http://cdn.360vryun.com/uploads/6233/spot/5ecde862009c1.jpg"/>
+<image url="http://cdn.360vryun.com/uploads/6233/spot/5ecde86229483.jpg" name="image_1" title="" thumb_url="http://cdn.360vryun.com/uploads/6233/spot/5ecde86229483.jpg"/>
+</hotspot>
+<hotspot name="hotspot_photo_481" url="" type="2" target="内建安全" linkedscene="内建安全" keep_view="0" show_txt="1" atv="-27.655762048471" ath="-0.93319155979583" image_type="1" style_id="new_spotd_bs143" is_blank="1">
+<image url="http://cdn.360vryun.com/uploads/6233/spot/5ecde87d8c87d.jpg" name="image_0" title="" thumb_url="http://cdn.360vryun.com/uploads/6233/spot/5ecde87d8c87d.jpg"/>
+<image url="http://cdn.360vryun.com/uploads/6233/spot/5ecde87ddd4eb.jpg" name="image_1" title="" thumb_url="http://cdn.360vryun.com/uploads/6233/spot/5ecde87ddd4eb.jpg"/>
+</hotspot>
+<hotspot name="hotspot_photo_482" url="" type="2" target="软件" linkedscene="软件" keep_view="0" show_txt="1" atv="-22.824438767617" ath="5.309068555373" image_type="1" style_id="new_spotd_bs143" is_blank="1">
+<image url="http://cdn.360vryun.com/uploads/6233/spot/5ecde8975271a.jpg" name="image_0" title="" thumb_url="http://cdn.360vryun.com/uploads/6233/spot/5ecde8975271a.jpg"/>
+<image url="http://cdn.360vryun.com/uploads/6233/spot/5ecde8977cc24.jpg" name="image_1" title="" thumb_url="http://cdn.360vryun.com/uploads/6233/spot/5ecde8977cc24.jpg"/>
+</hotspot>
+<hotspot name="hotspot_photo_483" url="" type="2" target="独特设计" linkedscene="独特设计" keep_view="0" show_txt="1" atv="-22.968451634573" ath="-6.4943318838963" image_type="1" style_id="new_spotd_bs143" is_blank="1">
+<image url="http://cdn.360vryun.com/uploads/6233/spot/5ecde8abbfa41.jpg" name="image_0" title="" thumb_url="http://cdn.360vryun.com/uploads/6233/spot/5ecde8abbfa41.jpg"/>
+<image url="http://cdn.360vryun.com/uploads/6233/spot/5ecde8abe5b0d.jpg" name="image_1" title="" thumb_url="http://cdn.360vryun.com/uploads/6233/spot/5ecde8abe5b0d.jpg"/>
+</hotspot>
+<hotspot name="hotspot_photo_484" url="" type="2" target="I/O模块" linkedscene="I/O模块" keep_view="0" show_txt="1" atv="-15.971764847154" ath="-6.5600334769663" image_type="1" style_id="new_spotd_bs143" is_blank="1">
+<image url="http://cdn.360vryun.com/uploads/6233/spot/5ecde8c0ba63d.jpg" name="image_0" title="" thumb_url="http://cdn.360vryun.com/uploads/6233/spot/5ecde8c0ba63d.jpg"/>
+<image url="http://cdn.360vryun.com/uploads/6233/spot/5ecde8c0e3d00.jpg" name="image_1" title="" thumb_url="http://cdn.360vryun.com/uploads/6233/spot/5ecde8c0e3d00.jpg"/>
+</hotspot>
+</hotspots>
+<sound url="http://cdn.360vryun.com/uploads/6233/voice/5ecc87a850ef8.mp3" enabled="1"/>
+<!-- 判断当前场景是否有沙盘 -->
+</pano>
+</panos>
+<auto_guide> </auto_guide>
+</config>
+</krpano>
